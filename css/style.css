@@ -8,12 +8,16 @@
 
 /* header start */
 .header {
-    background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
+    background: linear-gradient(to bottom, #1a1a1a, #000000);
 }
 
 /* nav start */
 .nav {
     padding-top: 40px !important;
+}
+
+.bg-white{
+    background-color: white !important;
 }
 
 .nav-logo {
@@ -49,4 +53,156 @@
 }
 
 /* nav end */
+
+/* header banner start */
+.banner {
+    margin-top: 60px;
+    padding-bottom: 60px;
+}
+
+.banner-img{
+    width: max-content;
+}
+
+.banner-head {
+    color: rgb(255, 255, 255);
+    font-size: 78px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.banner-para {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+}
+
+.banner-btn1 {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    padding: 16px 40px 16px 40px;
+    border: none;
+}
+
+.banner-btn2 {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    border: 2px solid white !important;
+    border-radius: 42px;
+    padding: 16px 40px 16px 40px;
+    background: transparent;
+}
+
+.banner500 {
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    width: max-content;
+    top: 25%;
+    right: -20%;
+}
+
+.banner-500 {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 40px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+.banner500-para {
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+.banner350 {
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    padding: 15px;
+    width: max-content;
+    bottom: 10%;
+    left: -25%;
+}
+
+.banner350-dot {
+    background: rgb(230, 83, 60);
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+.banner-350 {
+    color: rgb(250, 250, 249);
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+}
+
+.banner350-para {
+    color: rgba(239, 237, 232, 0.65);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+}
+
+/* header banner start */
 /* header end */
+
+
+/* responsive start */
+/* small device start */
+@media (max-width: 576px) {
+    .header{
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+  .banner-head {
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 100%;
+    margin-top: 30px;
+  }
+}
+/* small device end */
+
+/* medium device start */
+@media (min-width: 577px) and (max-width: 992px) {
+  .banner-head {
+    font-size: 68px;
+    font-weight: 800;
+    line-height: 120%;
+    margin-top: 30px;
+  }
+}
+/* medium device end */
+/* responsive end */
