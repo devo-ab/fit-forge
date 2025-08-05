@@ -16,7 +16,7 @@
     padding-top: 40px !important;
 }
 
-.bg-white{
+.bg-white {
     background-color: white !important;
 }
 
@@ -60,7 +60,7 @@
     padding-bottom: 60px;
 }
 
-.banner-img{
+.banner-img {
     width: max-content;
 }
 
@@ -178,31 +178,88 @@
 /* header banner start */
 /* header end */
 
+/* main start */
+.main {
+    background: rgb(0, 0, 0);
+    margin-top: -1px;
+}
+
+/* habit start */
+.habit-head {
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.habit-para {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: center;
+}
+
+.habit-details-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+.habit-details-head {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.habit-details-para {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+    text-align: center;
+}
+
+/* habit start */
+/* main end */
+
 
 /* responsive start */
 /* small device start */
 @media (max-width: 576px) {
-    .header{
+    .header {
         padding-left: 2px;
         padding-right: 2px;
     }
-  .banner-head {
-    font-size: 58px;
-    font-weight: 700;
-    line-height: 100%;
-    margin-top: 30px;
-  }
+
+    .banner-head {
+        font-size: 58px;
+        font-weight: 700;
+        line-height: 100%;
+        margin-top: 30px;
+    }
 }
+
 /* small device end */
 
 /* medium device start */
 @media (min-width: 577px) and (max-width: 992px) {
-  .banner-head {
-    font-size: 68px;
-    font-weight: 800;
-    line-height: 120%;
-    margin-top: 30px;
-  }
+    .banner-head {
+        font-size: 68px;
+        font-weight: 800;
+        line-height: 120%;
+        margin-top: 30px;
+    }
 }
+
 /* medium device end */
 /* responsive end */
