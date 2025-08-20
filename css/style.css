@@ -345,6 +345,24 @@
 /* training end */
 
 /* bmi start */
+.table-custom {
+      background-color: transparent !important;
+      color: rgba(255, 255, 255, 0.5) !important;
+      border-color: rgba(255, 255, 255, 0.5) !important;
+    }
+    .table-custom th {
+      color: #ffffff !important;
+      background-color: transparent !important;
+    }
+    .table-custom td {
+      background-color: transparent !important;
+    }
+    .table-custom,
+    .table-custom th,
+    .table-custom td {
+      border-color: rgba(255, 255, 255, 0.5) !important;
+      color: rgba(255, 255, 255, 0.5) !important;
+    }
 /* bmi start */
 /* main end */
 
