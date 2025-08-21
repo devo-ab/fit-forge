@@ -345,24 +345,60 @@
 /* training end */
 
 /* bmi start */
+.bmi {
+    margin-top: 65px !important;
+}
+
+.bmi-para {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+    margin-top: 14px;
+}
+
+.bmi-chart-head {
+    color: rgba(255, 255, 255, 1);
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.bmi-head {
+    color: rgba(255, 255, 255, 1);
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
 .table-custom {
-      background-color: transparent !important;
-      color: rgba(255, 255, 255, 0.5) !important;
-      border-color: rgba(255, 255, 255, 0.5) !important;
-    }
-    .table-custom th {
-      color: #ffffff !important;
-      background-color: transparent !important;
-    }
-    .table-custom td {
-      background-color: transparent !important;
-    }
-    .table-custom,
-    .table-custom th,
-    .table-custom td {
-      border-color: rgba(255, 255, 255, 0.5) !important;
-      color: rgba(255, 255, 255, 0.5) !important;
-    }
+    background-color: transparent !important;
+    color: rgba(255, 255, 255, 0.5) !important;
+    border-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.table-custom th {
+    color: #ffffff !important;
+    background-color: transparent !important;
+}
+
+.table-custom td {
+    background-color: transparent !important;
+    color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.table-custom,
+.table-custom th,
+.table-custom td {
+    border-color: rgba(255, 255, 255, 0.5) !important;
+}
+
 /* bmi start */
 /* main end */
 
