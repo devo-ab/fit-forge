@@ -461,19 +461,26 @@
     border: none;
 }
 
-.bmi-table{
+.bmi-table {
     width: 100%;
 }
 
-.calculate{
+.calculate {
     width: 100%;
 }
 
-.gap{
+.gap {
     gap: 100px;
 }
 
-/* bmi start */
+/* bmi end */
+
+/* our team start */
+.our-team {
+    padding-top: 88px;
+}
+
+/* our team end */
 /* main end */
 
 
