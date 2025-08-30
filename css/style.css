@@ -626,12 +626,12 @@
 
     .banner500 {
         top: 25%;
-        right: -10%;
+        right: 0%;
     }
 
     .banner350 {
         bottom: 10%;
-        left: -10%;
+        left: 0%;
     }
 
     .run {
