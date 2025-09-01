@@ -66,7 +66,15 @@
 }
 
 .banner-img {
-    width: max-content;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.banner-img img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 .banner-head {
@@ -122,7 +130,7 @@
     padding: 15px;
     width: max-content;
     top: 25%;
-    right: -20%;
+    right: 0%;
 }
 
 .banner-500 {
@@ -569,8 +577,9 @@
     line-height: 24px;
     letter-spacing: 0.3px;
     text-align: left;
-    width: 443px;
-    height: 72px;
+    max-width: 443px;
+    width: 100%;
+    height: auto;
 }
 
 .links-head {
